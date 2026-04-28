@@ -16,3 +16,7 @@ Mi pimer repositorio
 15) git commit -m "nota referencial cambio del commit"
 16) git log (se muestan los commits realizados)
 17) q para salir cuando aparezca (END)
+18) git branch -M main (renombra la rama principal a "main")
+19) git remote add origin "https://github.com/Valentin-Arreguez/laborartorio-2026.git"
+(agrega el repo local con el de la nube)
+20) git push -u origin main (sube todos los cambios a la nube)
