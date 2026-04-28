@@ -20,3 +20,15 @@ Mi pimer repositorio
 19) git remote add origin "https://github.com/Valentin-Arreguez/laborartorio-2026.git"
 (agrega el repo local con el de la nube)
 20) git push -u origin main (sube todos los cambios a la nube)
+-----------Ramas nuevas en Git------------------
+21) git checkout -b nueva-rama      # 1. crear y moverme a la rama
+# [hacer cambios + commits]     # 2. trabajar en la rama
+22) git checkout main               # 3. volver a main
+23) git merge nueva-rama            # 4. traer los cambios
+24) git branch -d nueva-rama        # 5. limpiar
+
+# SI HAY CONFLICTO:
+# → abrir el archivo
+# → elegir qué versión conservar
+# → borrar los marcadores <<<<, ====, >>>>
+# → git add + git commit
