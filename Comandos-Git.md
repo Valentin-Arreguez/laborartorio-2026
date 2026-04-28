@@ -11,3 +11,8 @@ Mi pimer repositorio
 10) clear (borrar)
 11) git init (inicializar el repositorio)
 12) git status (verifica el esgado del repo)
+13) git add "nombre del archivo"(agregar un archivo)
+14) git add . (agregar todos los archivos)
+15) git commit -m "nota referencial cambio del commit"
+16) git log (se muestan los commits realizados)
+17) q para salir cuando aparezca (END)
